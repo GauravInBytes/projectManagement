@@ -1,0 +1,16 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 95vh;
+    width: 250px;
+    background-color: #11101d;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    transition: 0.5s;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    align-items: center;
+}
