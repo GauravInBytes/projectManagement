@@ -2,7 +2,7 @@ import img from "../assets/no-projects.png";
 
 const NoProject = ({clickAddProject}) => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
       <img width="200px" height="200px" src={img} alt="no-project.png"></img>
       <h2 className="text-xl font-bold text-stone-700 my-4">
         No Project Selected

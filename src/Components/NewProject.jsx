@@ -6,7 +6,7 @@ const NewProject = ({ cancelCreateProject, addProject }) => {
   const [dueDate, setDueDate] = useState("");
 
   const handleSave = () => {
-    addProject({ title, description, dueDate });
+    addProject({ title, description, dueDate, tasks: [] });
     cancelCreateProject();
   };
   const handleCancel = () => {
